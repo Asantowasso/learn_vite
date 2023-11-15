@@ -6,6 +6,7 @@ const data = [
     year: 2022,
     title: "Campus Technician, Compucom",
     duration: "to present",
+
     details:
       "Resolve software and hardware issues for clients. Assist new hires in obtaining and configuring the correct programs and tools. Keep up to date with the latest procedures to best serve customers.",
   },
