@@ -4,20 +4,7 @@ import Vet from "../assets/Vet.jpg";
 import Solar from "../assets/Solarsystem.jpeg";
 import MET from "../assets/MET.jpg";
 
-const links = [
-  {
-    
-    url:"https://github.com/Asantowasso/pet-to-vet"
-  },
 
-  {
-    url: "https://github.com/Asantowasso/planets-and-moons"
-  },
-
-  {
-    url: "https://metmuseum.github.io/"
-  }
-]
 
 const Projects = () => {
   return (
@@ -30,9 +17,9 @@ const Projects = () => {
         Sample text sample text sample text sample text sample text sample text
       </p>
       <div className="grid sm:grid-cols-2 gap-12">
-        <Projectitem img={Vet} title="Pet-to-Vet" url="https://github.com/Asantowasso/planets-and-moons"/>
+        <Projectitem img={Vet} title="Pet-to-Vet" url="https://github.com/Asantowasso/pet-to-vet"/>
 
-        <Projectitem img={Solar} title="Solar System" />
+        <Projectitem img={Solar} title="Solar System" url="https://github.com/Asantowasso/planets-and-moons" />
 
         <Projectitem img={MET} title="MET Guide"  />
         
