@@ -8,12 +8,12 @@ import MET from "../assets/MET.jpg";
 
 const Projects = () => {
   return (
-    <div id="projects" className="max-w-[1040px] m-auto md:pl-20 p-4 py-16">
-      <h1 className="text-4xl font-bold text-center text-[#001b5e]">
+    <div id="projects" className="max-w-[1040px] m-auto md:pl-20 p-4 py-16 bg-[#252525]">
+      <h1 className="text-4xl font-bold text-center text-[white]">
         Projects
       </h1>
       
-      <p className="text-center py-8">
+      <p className="text-center text-[white] py-8">
         A selection of projects showcasing my web development skills
       </p>
       <div className="grid sm:grid-cols-2 gap-12">

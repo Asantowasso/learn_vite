@@ -11,13 +11,14 @@ const Projectitem = ({ img, title, desc, url, deployed }) => {
         <p className="pb-4 pt-2 text-white text-center">{desc}</p>
 
         <a href={url}>
-          <p className="text-center p-3 rounded-lg bg-white text-gray-700 font-bold cursor-pointer text-lg">
+          <p className="text-center  p-3 rounded-lg bg-white text-gray-700 font-bold cursor-pointer text-lg">
             Github
           </p>
         </a>
+        <br></br>
 
         <a href={deployed}>
-          <p className="text-center p-3 rounded-lg bg-white text-gray-700 font-bold cursor-pointer text-lg">
+          <p className="text-center space-y-6 p-3 rounded-lg bg-white text-gray-700 font-bold cursor-pointer text-lg">
             Deployed Application
           </p>
         </a>
