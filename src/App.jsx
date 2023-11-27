@@ -8,7 +8,7 @@ import Contact from './components/Contact'
 
 function App() {
   return (
-    <div>
+    <div className="bg-[#252525]">
       <Sidenav />
       <Main />
       <Work />
