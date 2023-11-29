@@ -10,8 +10,8 @@ const Main = () => {
         src="src/assets/waterCliffs.jpg"
         alt="An image of a body of water surrounded by foliage and sheer rock"
       />
-      <div className="w-full h-screen absolute top-0 left-0 bg-white/60">
-        <div className="max-w-[700px]  m-auto h-full w-full flex flex-col justify-center lg:items-start items-center">
+      <div className="w-full h-screen absolute top-0 left-0 bg-[white/60]">
+        <div className="max-w-[700px]   m-auto h-full w-full flex flex-col justify-center lg:items-start items-center">
           <h1 className="sm:text-5xl text-4xl font-bold text-gray-800">
             Aaron Santowasso
           </h1>
@@ -39,7 +39,7 @@ const Main = () => {
               repeat={Infinity}
             />
           </h2>
-          <div className="flex justify-between pt-6 max-w-[200px] w-full">
+          <div className="flex justify-between  pt-6 max-w-[200px] w-full">
             <FaLinkedinIn className="cursor-pointer" size={20} />
             <FaStackOverflow className="cursor-pointer" size={20} />
             <FaGithub className="cursor-pointer" size={20} />
