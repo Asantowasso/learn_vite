@@ -2,12 +2,15 @@ import React from "react";
 import { TypeAnimation } from "react-type-animation";
 import { FaLinkedinIn, FaStackOverflow, FaGithub } from "react-icons/fa";
 
+
+import water from "../assets/waterCliffs.jpg"
+
 const Main = () => {
   return (
     <div id="main">
       <img
         className="w-full h-screen object-cover object-left"
-        src="src/assets/waterCliffs.jpg"
+        src={water}
         alt="An image of a body of water surrounded by foliage and sheer rock"
       />
       <div className="w-full h-screen absolute top-0 left-0 bg-[white/60]">
