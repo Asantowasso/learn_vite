@@ -21,7 +21,7 @@ const Projects = () => {
 
         <Projectitem img={Solar} desc="A showcase of earth's solar system and various attributes of the planets" title="Solar System" url="https://github.com/Asantowasso/planets-and-moons" deployed="https://asantowasso.github.io/planets-and-moons/" />
 
-        <Projectitem img={MET} title="MET Guide"  />
+        <Projectitem img={MET} title="MET Guide" desc="Project under construction"  />
         
       </div>
     </div>
